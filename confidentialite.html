@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <!-- @include partials/head.html -->
+  <title>Confidentialité &amp; RGPD · Squishlandy</title>
+  <meta name="description" content="Politique de confidentialité Squishlandy : données collectées, cookies, durées de conservation et vos droits RGPD.">
+  <link rel="canonical" href="%VITE_SITE_URL%/confidentialite.html">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="%VITE_SITE_URL%/confidentialite.html">
+  <meta property="og:title" content="Confidentialité &amp; RGPD · Squishlandy">
+  <meta property="og:description" content="Politique de confidentialité Squishlandy : données collectées, cookies, durées de conservation et vos droits RGPD.">
+</head>
+<body>
+  <!-- @include partials/header.html -->
+  <main id="contenu" class="page">
+    <article class="container container--narrow legal">
+      <h1>Politique de confidentialité</h1>
+      <p class="legal__updated">Dernière mise à jour : 26 octobre 2026</p>
+      <p>Chez Squishlandy, on prend soin de vos données comme de nos squishies. Cette page explique, simplement, quelles données sont collectées, pourquoi, et quels sont vos droits, conformément au Règlement général sur la protection des données (RGPD) et à la loi Informatique et Libertés.</p>
+
+      <h2>1. Responsable du traitement</h2>
+      <p><span class="todo">[Raison sociale, adresse]</span> · Contact : <a href="mailto:bonjour@squishlandy.fr">bonjour@squishlandy.fr</a></p>
+
+      <h2>2. Données collectées et finalités</h2>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th>Données</th><th>Finalité</th><th>Base légale</th><th>Durée de conservation</th></tr></thead>
+          <tbody>
+            <tr><td>Nom, e-mail, téléphone, adresse de livraison</td><td>Traitement et livraison de la commande, service client</td><td>Exécution du contrat</td><td>3 ans après la dernière commande</td></tr>
+            <tr><td>Factures et historique de commande</td><td>Obligations comptables et fiscales</td><td>Obligation légale</td><td>10 ans</td></tr>
+            <tr><td>Données de paiement</td><td>Paiement sécurisé (traité uniquement par Stripe)</td><td>Exécution du contrat</td><td>Non conservées par Squishlandy</td></tr>
+            <tr><td>Contenu du panier, choix cookies (stockés sur votre appareil)</td><td>Fonctionnement du site</td><td>Intérêt légitime (strictement nécessaire)</td><td>Panier : jusqu'à suppression ; choix cookies : 6 mois</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Nous ne vendons jamais vos données et nous n'envoyons pas de publicité sans votre accord.</p>
+
+      <h2>3. Enfants</h2>
+      <p>Bien que nos produits s'adressent aux enfants, le site et les commandes sont destinés aux parents et aux adultes. Nous ne collectons sciemment aucune donnée personnelle auprès d'enfants.</p>
+
+      <h2>4. Destinataires</h2>
+      <ul>
+        <li><strong>Stripe</strong> (paiement) : Stripe Payments Europe, Ltd., Irlande</li>
+        <li><strong>Netlify</strong> (hébergement du site) : Netlify, Inc., États-Unis</li>
+        <li><strong>Transporteur</strong> (livraison) : <span class="todo">[La Poste / Colissimo, Mondial Relay…]</span></li>
+      </ul>
+      <p>Lorsque des données sont transférées hors de l'Union européenne (hébergement aux États-Unis), ce transfert est encadré par le Data Privacy Framework UE–États-Unis et/ou par les clauses contractuelles types de la Commission européenne.</p>
+
+      <h2>5. Vos droits</h2>
+      <p>Vous disposez d'un droit d'accès, de rectification, d'effacement, de limitation, d'opposition et de portabilité de vos données. Pour les exercer, écrivez-nous à <a href="mailto:bonjour@squishlandy.fr">bonjour@squishlandy.fr</a> ; nous répondons sous un mois maximum.</p>
+      <p>Si vous estimez que vos droits ne sont pas respectés, vous pouvez adresser une réclamation à la CNIL (<a href="https://www.cnil.fr" rel="noopener">www.cnil.fr</a>).</p>
+
+      <h2 id="cookies">6. Cookies et traceurs</h2>
+      <p>Le site n'utilise que des traceurs strictement nécessaires à son fonctionnement, qui ne nécessitent pas votre consentement. Les polices de caractères sont hébergées sur nos propres serveurs : aucune donnée n'est envoyée à Google ou à d'autres tiers lors de votre visite.</p>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th>Nom</th><th>Type</th><th>Rôle</th><th>Durée</th></tr></thead>
+          <tbody>
+            <tr><td>squishlandy-cart</td><td>Stockage local (nécessaire)</td><td>Mémoriser le contenu de votre panier</td><td>Jusqu'à suppression ou commande</td></tr>
+            <tr><td>squishlandy-consent</td><td>Stockage local (nécessaire)</td><td>Mémoriser vos choix en matière de cookies</td><td>6 mois</td></tr>
+            <tr><td>Cookies Stripe</td><td>Nécessaires (sur la page de paiement Stripe)</td><td>Sécurité et prévention de la fraude lors du paiement</td><td>Voir la politique de Stripe</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Si une mesure d'audience est ajoutée, elle ne sera activée qu'avec votre accord. Vous pouvez modifier votre choix à tout moment :</p>
+      <p><button class="btn btn--outline btn--small" type="button" data-cookie-settings><span class="btn__label">Gérer mes cookies</span></button></p>
+
+      <h2>7. Sécurité</h2>
+      <p>Le site est servi exclusivement en HTTPS (connexion chiffrée), protégé par des en-têtes de sécurité stricts, et aucune donnée bancaire ne transite par nos serveurs.</p>
+    </article>
+  </main>
+  <!-- @include partials/footer.html -->
+  <!-- @include partials/cart.html -->
+  <!-- @include partials/cookies.html -->
+</body>
+</html>

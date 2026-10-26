@@ -1,0 +1,165 @@
+{
+  "currency": "EUR",
+  "shipping": {
+    "price": 4.9,
+    "freeFrom": 35
+  },
+  "themes": [
+    { "id": "animaux", "label": "Animaux", "emoji": "🐱" },
+    { "id": "gourmandises", "label": "Gourmandises", "emoji": "🧁" },
+    { "id": "fruits", "label": "Fruits", "emoji": "🍓" },
+    { "id": "magiques", "label": "Magiques", "emoji": "🦄" }
+  ],
+  "products": [
+    {
+      "id": "mochi-le-chat",
+      "name": "Mochi le chat",
+      "theme": "animaux",
+      "price": 9.9,
+      "image": "/img/produits/mochi-le-chat.svg",
+      "alt": "Squishy en forme de chat blanc aux joues roses qui ferme les yeux en souriant",
+      "description": "Tout rond, tout doux, il remonte lentement quand on le presse.",
+      "badge": "Best-seller"
+    },
+    {
+      "id": "coin-coin-le-canard",
+      "name": "Coin-Coin le canard",
+      "theme": "animaux",
+      "price": 8.9,
+      "image": "/img/produits/coin-coin-le-canard.svg",
+      "alt": "Squishy en forme de petit canard jaune avec un bec orange",
+      "description": "Un poussin jaune soleil, parfait pour les petites mains."
+    },
+    {
+      "id": "gribouille-la-grenouille",
+      "name": "Gribouille la grenouille",
+      "theme": "animaux",
+      "price": 8.9,
+      "image": "/img/produits/gribouille-la-grenouille.svg",
+      "alt": "Squishy en forme de grenouille vert pomme avec de grands yeux ronds",
+      "description": "Sa bouille rigolote fait sourire toute la famille."
+    },
+    {
+      "id": "panpan-le-lapin",
+      "name": "Panpan le lapin",
+      "theme": "animaux",
+      "price": 9.9,
+      "image": "/img/produits/panpan-le-lapin.svg",
+      "alt": "Squishy en forme de lapin rose pâle avec deux longues oreilles",
+      "description": "Deux grandes oreilles et un cœur tout mou.",
+      "badge": "Nouveau"
+    },
+    {
+      "id": "donut-arc-en-ciel",
+      "name": "Donut arc-en-ciel",
+      "theme": "gourmandises",
+      "price": 7.9,
+      "image": "/img/produits/donut-arc-en-ciel.svg",
+      "alt": "Squishy en forme de donut glacé rose avec des vermicelles multicolores",
+      "description": "Parfumé à la fraise, mais surtout pas à croquer !"
+    },
+    {
+      "id": "cupcake-fraise",
+      "name": "Cupcake fraise",
+      "theme": "gourmandises",
+      "price": 7.9,
+      "image": "/img/produits/cupcake-fraise.svg",
+      "alt": "Squishy en forme de cupcake avec un glaçage rose et une cerise",
+      "description": "Un petit gâteau à câliner, sans une seule calorie."
+    },
+    {
+      "id": "glace-myrtille",
+      "name": "Glace myrtille",
+      "theme": "gourmandises",
+      "price": 8.5,
+      "image": "/img/produits/glace-myrtille.svg",
+      "alt": "Squishy en forme de cornet de glace parfum myrtille au visage souriant",
+      "description": "Une boule bleu lavande qui ne fond jamais."
+    },
+    {
+      "id": "macaron-calin",
+      "name": "Macaron câlin",
+      "theme": "gourmandises",
+      "price": 6.9,
+      "image": "/img/produits/macaron-calin.svg",
+      "alt": "Squishy en forme de macaron vert menthe avec un petit visage endormi",
+      "description": "Le format poche idéal pour le cartable.",
+      "badge": "Petit prix"
+    },
+    {
+      "id": "fraisy-la-fraise",
+      "name": "Fraisy la fraise",
+      "theme": "fruits",
+      "price": 7.9,
+      "image": "/img/produits/fraisy-la-fraise.svg",
+      "alt": "Squishy en forme de fraise rose avec des feuilles vertes et un sourire",
+      "description": "La star de Squishlandy, douce comme un nuage.",
+      "badge": "Best-seller"
+    },
+    {
+      "id": "peche-douce",
+      "name": "Pêche douce",
+      "theme": "fruits",
+      "price": 7.5,
+      "image": "/img/produits/peche-douce.svg",
+      "alt": "Squishy en forme de pêche orangée avec une feuille verte",
+      "description": "Toute veloutée, elle sent bon l'été."
+    },
+    {
+      "id": "avocat-rigolo",
+      "name": "Avocat rigolo",
+      "theme": "fruits",
+      "price": 8.5,
+      "image": "/img/produits/avocat-rigolo.svg",
+      "alt": "Squishy en forme d'avocat vert avec un noyau marron en guise de ventre",
+      "description": "Le copain le plus cool du coffre à jouets."
+    },
+    {
+      "id": "citron-soleil",
+      "name": "Citron soleil",
+      "theme": "fruits",
+      "price": 7.5,
+      "image": "/img/produits/citron-soleil.svg",
+      "alt": "Squishy en forme de citron jaune pastel avec un visage joyeux",
+      "description": "Un concentré de bonne humeur acidulée."
+    },
+    {
+      "id": "licorne-etoilee",
+      "name": "Licorne étoilée",
+      "theme": "magiques",
+      "price": 12.9,
+      "image": "/img/produits/licorne-etoilee.svg",
+      "alt": "Squishy en forme de licorne blanche avec une corne dorée et une crinière lavande",
+      "description": "Grande taille, crinière pastel et corne dorée.",
+      "badge": "Coup de cœur"
+    },
+    {
+      "id": "nuage-arc-en-ciel",
+      "name": "Nuage arc-en-ciel",
+      "theme": "magiques",
+      "price": 10.9,
+      "image": "/img/produits/nuage-arc-en-ciel.svg",
+      "alt": "Squishy en forme de nuage bleu ciel posé sur un petit arc-en-ciel",
+      "description": "Pour faire de jolis rêves tout en douceur."
+    },
+    {
+      "id": "etoile-filante",
+      "name": "Étoile filante",
+      "theme": "magiques",
+      "price": 9.5,
+      "image": "/img/produits/etoile-filante.svg",
+      "alt": "Squishy en forme d'étoile jaune pastel aux joues roses",
+      "description": "On la presse, on fait un vœu… et elle revient !"
+    },
+    {
+      "id": "bebe-dragon",
+      "name": "Bébé dragon",
+      "theme": "magiques",
+      "price": 12.9,
+      "image": "/img/produits/bebe-dragon.svg",
+      "alt": "Squishy en forme de bébé dragon vert menthe avec de petites ailes lavande",
+      "description": "Un dragon tout gentil qui ne crache que des câlins.",
+      "badge": "Nouveau"
+    }
+  ]
+}

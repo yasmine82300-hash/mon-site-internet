@@ -1,0 +1,31 @@
+<a class="skip-link" href="#contenu">Aller au contenu</a>
+<header class="site-header" data-header>
+  <div class="container site-header__inner">
+    <a class="brand" href="/" aria-label="Squishlandy, retour à l'accueil">
+      <picture>
+        <source type="image/avif" srcset="/img/logo-96.avif 1x, /img/logo-192.avif 2x">
+        <source type="image/webp" srcset="/img/logo-96.webp 1x, /img/logo-192.webp 2x">
+        <img class="brand__logo" src="/img/logo-96.png" alt="" width="64" height="64">
+      </picture>
+      <span class="brand__name">Squish<span>landy</span></span>
+    </a>
+
+    <nav class="nav" aria-label="Navigation principale">
+      <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-menu" data-nav-toggle>
+        <span class="nav__burger" aria-hidden="true"></span>
+        <span class="visually-hidden">Menu</span>
+      </button>
+      <ul class="nav__menu" id="nav-menu">
+        <li><a href="/#boutique">Boutique</a></li>
+        <li><a href="/#parents">Pour les parents</a></li>
+        <li><a href="/#avis">Avis</a></li>
+        <li><a href="/#faq">FAQ</a></li>
+      </ul>
+    </nav>
+
+    <button class="cart-button" type="button" data-cart-open aria-controls="cart" aria-label="Ouvrir le panier, 0 article">
+      <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M6 7h12l-1.2 11.1A2 2 0 0 1 14.8 20H9.2a2 2 0 0 1-2-1.9L6 7Zm3 0a3 3 0 0 1 6 0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span class="cart-button__count" data-cart-count>0</span>
+    </button>
+  </div>
+</header>

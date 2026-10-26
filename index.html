@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <!-- @include partials/head.html -->
+  <title>Squishlandy · Squishies kawaii pour enfants, livrés en 48 h</title>
+  <meta name="description" content="Boutique de squishies tout doux pour enfants : animaux, gourmandises, fruits et créatures magiques. Livraison offerte dès 35 €, paiement sécurisé.">
+  <link rel="canonical" href="%VITE_SITE_URL%/">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="%VITE_SITE_URL%/">
+  <meta property="og:title" content="Squishlandy · Le doux pays des squishies">
+  <meta property="og:description" content="Des squishies kawaii à presser, câliner et collectionner. Livraison offerte dès 35 €.">
+</head>
+<body>
+  <!-- @include partials/header.html -->
+
+  <main id="contenu">
+    <!-- HERO -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__bg" aria-hidden="true" data-hero-bg>
+        <span class="blob blob--pink"></span>
+        <span class="blob blob--lavender"></span>
+        <span class="blob blob--mint"></span>
+        <span class="blob blob--lemon"></span>
+      </div>
+
+      <div class="container hero__inner">
+        <div class="hero__text">
+          <p class="eyebrow reveal">Nouvelle collection câline ✨</p>
+          <h1 class="hero__title reveal" id="hero-title">Le doux pays <span class="text-candy">des squishies</span></h1>
+          <p class="hero__lead reveal">Des petits amis tout mous à presser, câliner et collectionner. Choisis ton univers préféré : animaux, gourmandises, fruits ou créatures magiques&nbsp;!</p>
+          <div class="hero__actions reveal">
+            <a class="btn btn--pink btn--large" href="#boutique" data-magnetic><span class="btn__label">Découvrir la boutique</span></a>
+            <a class="btn btn--outline btn--large" href="#parents" data-magnetic><span class="btn__label">Pour les parents</span></a>
+          </div>
+          <ul class="hero__trust reveal" data-stagger>
+            <li>🚚 Livraison offerte dès 35 €</li>
+            <li>🔒 Paiement sécurisé</li>
+            <li>💌 Emballage cadeau soigné</li>
+          </ul>
+        </div>
+
+        <div class="hero__visual reveal">
+          <picture>
+            <source type="image/avif" srcset="/img/logo-384.avif 384w, /img/logo-768.avif 768w" sizes="(min-width: 960px) 440px, 72vw">
+            <source type="image/webp" srcset="/img/logo-384.webp 384w, /img/logo-768.webp 768w" sizes="(min-width: 960px) 440px, 72vw">
+            <img class="hero__logo" src="/img/logo-384.png" alt="Logo Squishlandy : un chat, un canard, une grenouille et une fraise en squishies qui sortent d'un carton" width="440" height="440" fetchpriority="high">
+          </picture>
+          <img class="hero__float hero__float--1" src="/img/produits/licorne-etoilee.svg" alt="" width="110" height="110">
+          <img class="hero__float hero__float--2" src="/img/produits/donut-arc-en-ciel.svg" alt="" width="96" height="96">
+          <img class="hero__float hero__float--3" src="/img/produits/nuage-arc-en-ciel.svg" alt="" width="88" height="88">
+        </div>
+      </div>
+    </section>
+
+    <!-- CHIFFRES CLÉS -->
+    <section class="stats" aria-label="Squishlandy en chiffres">
+      <div class="container">
+        <ul class="stats__grid" data-stagger>
+          <li class="stat reveal">
+            <span class="stat__value"><span data-count="16">16</span></span>
+            <span class="stat__label">modèles tout doux</span>
+          </li>
+          <li class="stat reveal">
+            <span class="stat__value"><span data-count="4">4</span></span>
+            <span class="stat__label">univers à explorer</span>
+          </li>
+          <li class="stat reveal">
+            <span class="stat__value"><span data-count="48">48</span>&nbsp;h</span>
+            <span class="stat__label">pour expédier ta commande</span>
+          </li>
+          <li class="stat reveal">
+            <span class="stat__value"><span data-count="35">35</span>&nbsp;€</span>
+            <span class="stat__label">et la livraison est offerte</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- BOUTIQUE -->
+    <section class="shop section" id="boutique" aria-labelledby="shop-title">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow reveal">La boutique</p>
+          <h2 class="section__title reveal" id="shop-title">Choisis ton squishy</h2>
+          <p class="section__lead reveal">Filtre par thème et ajoute tes préférés au panier.</p>
+        </header>
+
+        <div class="tabs reveal" role="tablist" aria-label="Thèmes de squishies" data-tabs>
+          <!-- @theme-tabs -->
+        </div>
+
+        <ul class="grid" id="product-grid" role="tabpanel" aria-labelledby="tab-tous" data-stagger data-product-grid>
+          <!-- @products -->
+        </ul>
+      </div>
+    </section>
+
+    <!-- POUR LES PARENTS -->
+    <section class="parents section section--tinted" id="parents" aria-labelledby="parents-title">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow reveal">Pour les parents</p>
+          <h2 class="section__title reveal" id="parents-title">Doux pour les enfants, rassurant pour vous</h2>
+        </header>
+        <ul class="features" data-stagger>
+          <li class="feature reveal">
+            <span class="feature__icon feature__icon--mint" aria-hidden="true">🛡️</span>
+            <h3>Jouets marqués CE</h3>
+            <p>Chaque modèle est conforme à la norme européenne de sécurité des jouets EN&nbsp;71. Âge conseillé indiqué sur chaque fiche.</p>
+          </li>
+          <li class="feature reveal">
+            <span class="feature__icon feature__icon--pink" aria-hidden="true">🧘</span>
+            <h3>Anti-stress &amp; motricité</h3>
+            <p>Presser, relâcher, recommencer : un geste apaisant qui aide aussi à développer la force des petites mains.</p>
+          </li>
+          <li class="feature reveal">
+            <span class="feature__icon feature__icon--lemon" aria-hidden="true">🎁</span>
+            <h3>Prêt à offrir</h3>
+            <p>Emballage soigné et petit mot doux sur demande : idéal pour un anniversaire ou une récompense.</p>
+          </li>
+          <li class="feature reveal">
+            <span class="feature__icon feature__icon--lavender" aria-hidden="true">↩️</span>
+            <h3>14 jours pour changer d'avis</h3>
+            <p>Un modèle ne plaît pas&nbsp;? Vous disposez de 14 jours pour nous le retourner, tout simplement.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- AVIS : à remplacer par de vrais avis clients avant la mise en ligne
+         (publier des avis inventés est interdit, art. L121-4 du Code de la consommation). -->
+    <section class="reviews section" id="avis" aria-labelledby="reviews-title">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow reveal">Ils ont craqué</p>
+          <h2 class="section__title reveal" id="reviews-title">Les avis des familles</h2>
+        </header>
+        <ul class="reviews__grid" data-stagger>
+          <li class="review reveal">
+            <p class="review__stars" aria-label="5 étoiles sur 5">★★★★★</p>
+            <blockquote><p>« Ma fille de 7 ans ne quitte plus Mochi le chat. Super doux et il reprend sa forme très lentement, elle adore ! »</p></blockquote>
+            <p class="review__author">Camille, maman de Léa</p>
+          </li>
+          <li class="review reveal">
+            <p class="review__stars" aria-label="5 étoiles sur 5">★★★★★</p>
+            <blockquote><p>« Commande reçue en 2 jours, joliment emballée. Parfait pour les goûters d'anniversaire. »</p></blockquote>
+            <p class="review__author">Mehdi, papa de Sami et Inès</p>
+          </li>
+          <li class="review reveal">
+            <p class="review__stars" aria-label="5 étoiles sur 5">★★★★★</p>
+            <blockquote><p>« La licorne étoilée est encore plus belle en vrai. Mon fils s'en sert pour se calmer avant l'école. »</p></blockquote>
+            <p class="review__author">Sophie, maman de Noah</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq section section--tinted" id="faq" aria-labelledby="faq-title">
+      <div class="container container--narrow">
+        <header class="section__head">
+          <p class="eyebrow reveal">Questions fréquentes</p>
+          <h2 class="section__title reveal" id="faq-title">On répond à tout</h2>
+        </header>
+        <div class="faq__list" data-stagger>
+          <details class="faq__item reveal">
+            <summary>À partir de quel âge ?</summary>
+            <p>Nos squishies sont conseillés à partir de 3 ans. Ils ne conviennent pas aux enfants de moins de 36 mois car ils peuvent être mordillés et contenir de petits éléments. Un adulte doit superviser les plus petits.</p>
+          </details>
+          <details class="faq__item reveal">
+            <summary>Quels sont les délais et frais de livraison ?</summary>
+            <p>Les commandes sont expédiées sous 48 h ouvrées en France métropolitaine, Belgique, Suisse et Luxembourg. La livraison coûte 4,90 € et devient offerte dès 35 € d'achat.</p>
+          </details>
+          <details class="faq__item reveal">
+            <summary>Le paiement est-il sécurisé ?</summary>
+            <p>Oui. Le paiement est assuré par Stripe, leader du paiement en ligne. Vos données bancaires sont chiffrées et ne transitent jamais par nos serveurs.</p>
+          </details>
+          <details class="faq__item reveal">
+            <summary>Puis-je retourner un article ?</summary>
+            <p>Bien sûr : vous disposez de 14 jours après réception pour exercer votre droit de rétractation. Toutes les étapes sont détaillées dans nos <a href="/cgv.html#retractation">conditions générales de vente</a>.</p>
+          </details>
+          <details class="faq__item reveal">
+            <summary>Comment nettoyer un squishy ?</summary>
+            <p>Un chiffon légèrement humide et un peu de talc suffisent pour qu'il reste tout doux. Évitez l'eau chaude, le soleil direct et la machine à laver.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- @include partials/footer.html -->
+  <!-- @include partials/cart.html -->
+  <!-- @include partials/cookies.html -->
+</body>
+</html>

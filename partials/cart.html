@@ -1,0 +1,34 @@
+<div class="cart-backdrop" data-cart-close hidden></div>
+<aside class="cart" id="cart" role="dialog" aria-modal="true" aria-labelledby="cart-title" hidden>
+  <div class="cart__head">
+    <h2 class="cart__title" id="cart-title">Ton panier</h2>
+    <button class="icon-button" type="button" data-cart-close aria-label="Fermer le panier">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+
+  <p class="cart__shipping-hint" data-cart-hint></p>
+  <ul class="cart__items" data-cart-items></ul>
+  <div class="cart__empty" data-cart-empty>
+    <img src="/img/squishy-triste.svg" alt="" width="120" height="120" loading="lazy">
+    <p>Ton panier est tout vide…<br>Les squishies t'attendent !</p>
+    <a class="btn btn--pink" href="/#boutique" data-cart-close><span class="btn__label">Voir la boutique</span></a>
+  </div>
+
+  <div class="cart__summary" data-cart-summary hidden>
+    <dl>
+      <div><dt>Sous-total</dt><dd data-cart-subtotal>0,00 €</dd></div>
+      <div><dt>Livraison</dt><dd data-cart-shipping>4,90 €</dd></div>
+      <div class="cart__total"><dt>Total TTC</dt><dd data-cart-total>0,00 €</dd></div>
+    </dl>
+    <label class="checkbox">
+      <input type="checkbox" data-cart-terms required>
+      <span>J'ai lu et j'accepte les <a href="/cgv.html" target="_blank" rel="noopener">conditions générales de vente</a>.</span>
+    </label>
+    <button class="btn btn--dark btn--block" type="button" data-checkout data-magnetic>
+      <span class="btn__label">Payer en toute sécurité 🔒</span>
+    </button>
+    <p class="cart__message" data-cart-message role="status" aria-live="polite"></p>
+    <p class="cart__secure">Paiement chiffré via Stripe : carte bancaire, Apple Pay, Google Pay.</p>
+  </div>
+</aside>
