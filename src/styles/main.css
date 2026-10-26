@@ -261,7 +261,7 @@ button {
 /* ========== Header (se compacte au scroll) ========== */
 .site-header {
   position: fixed;
-  inset: 0 0 auto;
+  inset: env(safe-area-inset-top, 0px) 0 auto;
   z-index: 40;
   height: var(--header-h);
   transition: transform 0.45s var(--ease-out);
